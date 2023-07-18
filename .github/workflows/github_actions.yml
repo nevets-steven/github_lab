@@ -24,6 +24,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-docker-hub-username/your-repo-name:latest
+          tags: nevets322/github_actions:latest
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
